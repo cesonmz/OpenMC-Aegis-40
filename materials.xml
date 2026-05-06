@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="1" name="UO2 1.6%" depletable="true" temperature="900.0">
+    <density value="10.257" units="g/cm3"/>
+    <nuclide name="U235" wo="0.016"/>
+    <nuclide name="U238" wo="0.8724"/>
+    <nuclide name="O16" wo="0.1116"/>
+  </material>
+  <material id="2" name="UO2 2.4%" depletable="true" temperature="900.0">
+    <density value="10.257" units="g/cm3"/>
+    <nuclide name="U235" wo="0.024"/>
+    <nuclide name="U238" wo="0.8644"/>
+    <nuclide name="O16" wo="0.1116"/>
+  </material>
+  <material id="3" name="UO2 3.1%" depletable="true" temperature="900.0">
+    <density value="10.257" units="g/cm3"/>
+    <nuclide name="U235" wo="0.031"/>
+    <nuclide name="U238" wo="0.8574"/>
+    <nuclide name="O16" wo="0.1116"/>
+  </material>
+  <material id="4" name="UO2-Gd2O3" depletable="true" temperature="900.0">
+    <density value="10.2" units="g/cm3"/>
+    <nuclide name="U235" wo="0.028"/>
+    <nuclide name="U238" wo="0.85"/>
+    <nuclide name="Gd155" wo="0.01"/>
+    <nuclide name="Gd157" wo="0.01"/>
+    <nuclide name="O16" wo="0.11"/>
+  </material>
+  <material id="5" name="Helium">
+    <density value="0.000178" units="g/cm3"/>
+    <nuclide name="He3" ao="2e-06"/>
+    <nuclide name="He4" ao="0.999998"/>
+  </material>
+  <material id="6" name="Zircaloy-4">
+    <density value="6.56" units="g/cm3"/>
+    <nuclide name="Zr90" wo="0.49791886210541686"/>
+    <nuclide name="Zr91" wo="0.10979296052321377"/>
+    <nuclide name="Zr92" wo="0.16966577294238944"/>
+    <nuclide name="Zr94" wo="0.17568527731050962"/>
+    <nuclide name="Zr96" wo="0.028907127118470377"/>
+    <nuclide name="Sn112" wo="0.0001325869650089989"/>
+    <nuclide name="Sn114" wo="9.182449386307578e-05"/>
+    <nuclide name="Sn115" wo="4.771905899254867e-05"/>
+    <nuclide name="Sn116" wo="0.002058423144151509"/>
+    <nuclide name="Sn117" wo="0.001096647338091086"/>
+    <nuclide name="Sn118" wo="0.003487981278597597"/>
+    <nuclide name="Sn119" wo="0.0012475771051862216"/>
+    <nuclide name="Sn120" wo="0.004771539508846635"/>
+    <nuclide name="Sn122" wo="0.0006894094862319448"/>
+    <nuclide name="Sn124" wo="0.000876291621030382"/>
+    <nuclide name="Fe54" wo="0.00011855672267684395"/>
+    <nuclide name="Fe56" wo="0.0019299321043708116"/>
+    <nuclide name="Fe57" wo="4.5367740887167366e-05"/>
+    <nuclide name="Fe58" wo="6.143432065177235e-06"/>
+    <nuclide name="Cr50" wo="4.173686622718313e-05"/>
+    <nuclide name="Cr52" wo="0.000836993623513459"/>
+    <nuclide name="Cr53" wo="9.673586818675183e-05"/>
+    <nuclide name="Cr54" wo="2.4533642072606143e-05"/>
+    <nuclide name="Hf174" wo="6.704808015916695e-07"/>
+    <nuclide name="Hf176" wo="2.229567316807749e-05"/>
+    <nuclide name="Hf177" wo="7.928913375948295e-05"/>
+    <nuclide name="Hf178" wo="0.0001169482643179181"/>
+    <nuclide name="Hf179" wo="5.871721618451383e-05"/>
+    <nuclide name="Hf180" wo="0.00015207923176841593"/>
+  </material>
+  <material id="7" name="Light Water" temperature="557.0">
+    <density value="0.7405" units="g/cm3"/>
+    <nuclide name="H1" ao="2.0"/>
+    <nuclide name="O16" ao="1.0"/>
+    <sab name="c_H_in_H2O"/>
+  </material>
+  <material id="8" name="SS304">
+    <density value="8.03" units="g/cm3"/>
+    <nuclide name="Fe54" wo="0.039236629647812646"/>
+    <nuclide name="Fe56" wo="0.6387156250179591"/>
+    <nuclide name="Fe57" wo="0.015014561865038722"/>
+    <nuclide name="Fe58" wo="0.0020331834691896086"/>
+    <nuclide name="Cr50" wo="0.007930004583164795"/>
+    <nuclide name="Cr52" wo="0.1590287884675572"/>
+    <nuclide name="Cr53" wo="0.01837981495548285"/>
+    <nuclide name="Cr54" wo="0.004661391993795167"/>
+    <nuclide name="Ni58" wo="0.0638378200317604"/>
+    <nuclide name="Ni60" wo="0.025437164754268084"/>
+    <nuclide name="Ni61" wo="0.0011241911310318747"/>
+    <nuclide name="Ni62" wo="0.0036430811883128114"/>
+    <nuclide name="Ni64" wo="0.0009577428946268364"/>
+    <nuclide name="Mn55" wo="0.02"/>
+  </material>
+  <material id="9" name="Carbon Steel RPV">
+    <density value="7.85" units="g/cm3"/>
+    <nuclide name="Fe54" wo="0.055044192671391844"/>
+    <nuclide name="Fe56" wo="0.896039905600734"/>
+    <nuclide name="Fe57" wo="0.021063593983327706"/>
+    <nuclide name="Fe58" wo="0.002852307744546574"/>
+    <nuclide name="Mn55" wo="0.015"/>
+    <nuclide name="Si28" wo="0.004593675864141838"/>
+    <nuclide name="Si29" wo="0.0002415875146393198"/>
+    <nuclide name="Si30" wo="0.00016473662121884212"/>
+    <nuclide name="Cr50" wo="0.00020868433113591567"/>
+    <nuclide name="Cr52" wo="0.004184968117567295"/>
+    <nuclide name="Cr53" wo="0.0004836793409337592"/>
+    <nuclide name="Cr54" wo="0.00012266821036303072"/>
+  </material>
+</materials>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<tallies>
+  <!--XY flux mesh-->
+  <mesh id="1" name="XY flux mesh">
+    <dimension>80 80 1</dimension>
+    <lower_left>-133.35 -133.35 -99.9998</lower_left>
+    <upper_right>133.35 133.35 99.9998</upper_right>
+  </mesh>
+  <!--XZ flux mesh-->
+  <mesh id="2" name="XZ flux mesh">
+    <dimension>80 1 80</dimension>
+    <lower_left>-133.35 -1.0 -124.9998</lower_left>
+    <upper_right>133.35 1.0 124.9998</upper_right>
+  </mesh>
+  <filter id="2" type="material">
+    <bins>1 2 3 4</bins>
+  </filter>
+  <filter id="1" type="energy">
+    <bins>1e-05 0.625 100000.0 20000000.0</bins>
+  </filter>
+  <filter id="3" type="material">
+    <bins>1 2 3 4 5 6 7 8 9</bins>
+  </filter>
+  <filter id="5" type="mesh">
+    <bins>1</bins>
+  </filter>
+  <filter id="6" type="mesh">
+    <bins>2</bins>
+  </filter>
+  <filter id="7" type="surface">
+    <bins>22</bins>
+  </filter>
+  <filter id="4" type="cell">
+    <bins>32</bins>
+  </filter>
+  <tally id="1" name="Fuel flux (energy-resolved)">
+    <filters>2 1</filters>
+    <scores>flux</scores>
+  </tally>
+  <tally id="2" name="Fission rates">
+    <filters>2</filters>
+    <scores>fission nu-fission kappa-fission</scores>
+  </tally>
+  <tally id="3" name="Fuel heating">
+    <filters>2</filters>
+    <scores>heating</scores>
+  </tally>
+  <tally id="4" name="Total heating">
+    <filters>3</filters>
+    <scores>heating</scores>
+  </tally>
+  <tally id="5" name="Absorption &amp; scattering">
+    <filters>2 1</filters>
+    <scores>absorption elastic scatter</scores>
+  </tally>
+  <tally id="6" name="Mesh flux XY">
+    <filters>5</filters>
+    <scores>flux fission</scores>
+  </tally>
+  <tally id="7" name="Mesh flux XZ">
+    <filters>6</filters>
+    <scores>flux</scores>
+  </tally>
+  <tally id="8" name="Core barrel current">
+    <filters>7</filters>
+    <scores>current</scores>
+  </tally>
+  <tally id="9" name="Core flux">
+    <filters>4</filters>
+    <scores>flux</scores>
+  </tally>
+</tallies>

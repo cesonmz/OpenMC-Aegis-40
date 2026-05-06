@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" name="fuel 1.6%" material="1" region="-1" universe="1"/>
+  <cell id="2" name="gap 1.6%" material="5" region="1 -2" universe="1"/>
+  <cell id="3" name="clad 1.6%" material="6" region="2 -3" universe="1"/>
+  <cell id="4" name="moderator 1.6%" material="7" region="3" universe="1"/>
+  <cell id="5" name="fuel 2.4%" material="2" region="-1" universe="2"/>
+  <cell id="6" name="gap 2.4%" material="5" region="1 -2" universe="2"/>
+  <cell id="7" name="clad 2.4%" material="6" region="2 -3" universe="2"/>
+  <cell id="8" name="moderator 2.4%" material="7" region="3" universe="2"/>
+  <cell id="9" name="fuel 3.1%" material="3" region="-1" universe="3"/>
+  <cell id="10" name="gap 3.1%" material="5" region="1 -2" universe="3"/>
+  <cell id="11" name="clad 3.1%" material="6" region="2 -3" universe="3"/>
+  <cell id="12" name="moderator 3.1%" material="7" region="3" universe="3"/>
+  <cell id="13" name="fuel Gd" material="4" region="-1" universe="4"/>
+  <cell id="14" name="gap Gd" material="5" region="1 -2" universe="4"/>
+  <cell id="15" name="clad Gd" material="6" region="2 -3" universe="4"/>
+  <cell id="16" name="moderator Gd" material="7" region="3" universe="4"/>
+  <cell id="17" name="GT inner water" material="7" region="-4" universe="5"/>
+  <cell id="18" name="GT wall" material="6" region="4 -5" universe="5"/>
+  <cell id="19" name="GT outer water" material="7" region="5" universe="5"/>
+  <cell id="20" material="7" universe="7"/>
+  <cell id="21" name="lattice 1.6%" fill="6" region="6 -7 8 -9" universe="8"/>
+  <cell id="22" name="inter-assy water 1.6%" material="7" region="-6 | 7 | -8 | 9" universe="8"/>
+  <cell id="23" material="7" universe="10"/>
+  <cell id="24" name="lattice 2.4%" fill="9" region="10 -11 12 -13" universe="11"/>
+  <cell id="25" name="inter-assy water 2.4%" material="7" region="-10 | 11 | -12 | 13" universe="11"/>
+  <cell id="26" material="7" universe="13"/>
+  <cell id="27" name="lattice 3.1%" fill="12" region="14 -15 16 -17" universe="14"/>
+  <cell id="28" name="inter-assy water 3.1%" material="7" region="-14 | 15 | -16 | 17" universe="14"/>
+  <cell id="29" material="7" universe="15"/>
+  <cell id="30" material="7" universe="17"/>
+  <cell id="32" name="Active core" fill="16" region="-22 28 -29" universe="19"/>
+  <cell id="33" name="Lower reflector" material="7" region="-22 26 -28" universe="19"/>
+  <cell id="34" name="Upper reflector" material="7" region="-22 29 -27" universe="19"/>
+  <cell id="35" name="Core barrel" material="8" region="22 -23 26 -27" universe="19"/>
+  <cell id="36" name="Downcomer" material="7" region="23 -24 26 -27" universe="19"/>
+  <cell id="37" name="RPV" material="9" region="24 -25 26 -27" universe="19"/>
+  <lattice id="6" name="FA 1.6%">
+    <pitch>1.25984 1.25984</pitch>
+    <outer>7</outer>
+    <dimension>17 17</dimension>
+    <lower_left>-10.70864 -10.70864</lower_left>
+    <universes>
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 5 1 1 5 1 1 5 1 1 1 1 1 
+1 1 1 5 1 1 1 1 4 1 1 1 1 5 1 1 1 
+1 1 1 1 4 1 1 1 1 1 1 1 4 1 1 1 1 
+1 1 5 1 1 5 1 1 5 1 1 5 1 1 5 1 1 
+1 1 1 1 1 1 4 1 1 1 4 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 5 4 1 5 1 1 5 1 1 5 1 4 5 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 4 1 1 1 4 1 1 1 1 1 1 
+1 1 5 1 1 5 1 1 5 1 1 5 1 1 5 1 1 
+1 1 1 1 4 1 1 1 1 1 1 1 4 1 1 1 1 
+1 1 1 5 1 1 1 1 4 1 1 1 1 5 1 1 1 
+1 1 1 1 1 5 1 1 5 1 1 5 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 </universes>
+  </lattice>
+  <lattice id="9" name="FA 2.4%">
+    <pitch>1.25984 1.25984</pitch>
+    <outer>10</outer>
+    <dimension>17 17</dimension>
+    <lower_left>-10.70864 -10.70864</lower_left>
+    <universes>
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 5 2 2 5 2 2 5 2 2 2 2 2 
+2 2 2 5 2 2 2 2 4 2 2 2 2 5 2 2 2 
+2 2 2 2 4 2 2 2 2 2 2 2 4 2 2 2 2 
+2 2 5 2 2 5 2 2 5 2 2 5 2 2 5 2 2 
+2 2 2 2 2 2 4 2 2 2 4 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 5 4 2 5 2 2 5 2 2 5 2 4 5 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 4 2 2 2 4 2 2 2 2 2 2 
+2 2 5 2 2 5 2 2 5 2 2 5 2 2 5 2 2 
+2 2 2 2 4 2 2 2 2 2 2 2 4 2 2 2 2 
+2 2 2 5 2 2 2 2 4 2 2 2 2 5 2 2 2 
+2 2 2 2 2 5 2 2 5 2 2 5 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 </universes>
+  </lattice>
+  <lattice id="12" name="FA 3.1%">
+    <pitch>1.25984 1.25984</pitch>
+    <outer>13</outer>
+    <dimension>17 17</dimension>
+    <lower_left>-10.70864 -10.70864</lower_left>
+    <universes>
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 5 3 3 5 3 3 5 3 3 3 3 3 
+3 3 3 5 3 3 3 3 4 3 3 3 3 5 3 3 3 
+3 3 3 3 4 3 3 3 3 3 3 3 4 3 3 3 3 
+3 3 5 3 3 5 3 3 5 3 3 5 3 3 5 3 3 
+3 3 3 3 3 3 4 3 3 3 4 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 5 4 3 5 3 3 5 3 3 5 3 4 5 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 4 3 3 3 4 3 3 3 3 3 3 
+3 3 5 3 3 5 3 3 5 3 3 5 3 3 5 3 3 
+3 3 3 3 4 3 3 3 3 3 3 3 4 3 3 3 3 
+3 3 3 5 3 3 3 3 4 3 3 3 3 5 3 3 3 
+3 3 3 3 3 5 3 3 5 3 3 5 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </universes>
+  </lattice>
+  <lattice id="16" name="Core lattice">
+    <pitch>21.503639999999997 21.503639999999997</pitch>
+    <outer>17</outer>
+    <dimension>9 9</dimension>
+    <lower_left>-96.76637999999998 -96.76637999999998</lower_left>
+    <universes>
+15 15 15 15 15 15 15 15 15 
+15 15 15 14 14 14 15 15 15 
+15 15 11 8 11 8 11 15 15 
+15 14 8 11 8 11 8 14 15 
+15 14 11 8 11 8 11 14 15 
+15 14 8 11 8 11 8 14 15 
+15 15 11 8 11 8 11 15 15 
+15 15 15 14 14 14 15 15 15 
+15 15 15 15 15 15 15 15 15 </universes>
+  </lattice>
+  <surface id="1" name="Fuel pellet OR" type="z-cylinder" coeffs="0.0 0.0 0.405765"/>
+  <surface id="2" name="Clad IR / gap" type="z-cylinder" coeffs="0.0 0.0 0.41402"/>
+  <surface id="3" name="Clad OR" type="z-cylinder" coeffs="0.0 0.0 0.47498"/>
+  <surface id="4" name="Guide tube IR" type="z-cylinder" coeffs="0.0 0.0 0.5715"/>
+  <surface id="5" name="Guide tube OR" type="z-cylinder" coeffs="0.0 0.0 0.61214"/>
+  <surface id="6" name="minimum x" type="x-plane" coeffs="-10.751819999999999"/>
+  <surface id="7" name="maximum x" type="x-plane" coeffs="10.751819999999999"/>
+  <surface id="8" name="minimum y" type="y-plane" coeffs="-10.751819999999999"/>
+  <surface id="9" name="maximum y" type="y-plane" coeffs="10.751819999999999"/>
+  <surface id="10" name="minimum x" type="x-plane" coeffs="-10.751819999999999"/>
+  <surface id="11" name="maximum x" type="x-plane" coeffs="10.751819999999999"/>
+  <surface id="12" name="minimum y" type="y-plane" coeffs="-10.751819999999999"/>
+  <surface id="13" name="maximum y" type="y-plane" coeffs="10.751819999999999"/>
+  <surface id="14" name="minimum x" type="x-plane" coeffs="-10.751819999999999"/>
+  <surface id="15" name="maximum x" type="x-plane" coeffs="10.751819999999999"/>
+  <surface id="16" name="minimum y" type="y-plane" coeffs="-10.751819999999999"/>
+  <surface id="17" name="maximum y" type="y-plane" coeffs="10.751819999999999"/>
+  <surface id="22" name="Core barrel IR" type="z-cylinder" coeffs="0.0 0.0 93.98"/>
+  <surface id="23" name="Core barrel OR" type="z-cylinder" coeffs="0.0 0.0 99.06"/>
+  <surface id="24" name="RPV IR" type="z-cylinder" coeffs="0.0 0.0 122.555"/>
+  <surface id="25" name="RPV OR" type="z-cylinder" boundary="reflective" coeffs="0.0 0.0 133.35"/>
+  <surface id="26" name="Bottom boundary" type="z-plane" boundary="reflective" coeffs="-124.9998"/>
+  <surface id="27" name="Top boundary" type="z-plane" boundary="reflective" coeffs="124.9998"/>
+  <surface id="28" name="Fuel bottom" type="z-plane" coeffs="-99.9998"/>
+  <surface id="29" name="Fuel top" type="z-plane" coeffs="99.9998"/>
+</geometry>

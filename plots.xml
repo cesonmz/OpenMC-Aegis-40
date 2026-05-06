@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plots>
+  <!--XY core midplane-->
+  <plot id="1" name="XY core midplane" filename="core_xy_midplane" color_by="material" type="slice" basis="xy">
+    <pixels>1500 1500</pixels>
+    <origin>0.0 0.0 0.0</origin>
+    <width>276.7 276.7</width>
+    <color id="1" rgb="255 80 80"/>
+    <color id="2" rgb="255 200 50"/>
+    <color id="3" rgb="50 80 200"/>
+    <color id="4" rgb="0 180 0"/>
+    <color id="5" rgb="255 230 200"/>
+    <color id="6" rgb="180 180 180"/>
+    <color id="7" rgb="150 200 255"/>
+    <color id="8" rgb="60 60 60"/>
+    <color id="9" rgb="30 30 30"/>
+  </plot>
+  <!--XZ axial slice-->
+  <plot id="2" name="XZ axial slice" filename="core_xz_axial" color_by="material" type="slice" basis="xz">
+    <pixels>1500 1500</pixels>
+    <origin>0.0 0.0 0.0</origin>
+    <width>276.7 249.9996</width>
+    <color id="1" rgb="255 80 80"/>
+    <color id="2" rgb="255 200 50"/>
+    <color id="3" rgb="50 80 200"/>
+    <color id="4" rgb="0 180 0"/>
+    <color id="5" rgb="255 230 200"/>
+    <color id="6" rgb="180 180 180"/>
+    <color id="7" rgb="150 200 255"/>
+    <color id="8" rgb="60 60 60"/>
+    <color id="9" rgb="30 30 30"/>
+  </plot>
+  <!--Assembly detail-->
+  <plot id="3" name="Assembly detail" filename="assembly_xy" color_by="material" type="slice" basis="xy">
+    <pixels>1500 1500</pixels>
+    <origin>0.0 0.0 0.0</origin>
+    <width>22.578822 22.578822</width>
+    <color id="1" rgb="255 80 80"/>
+    <color id="2" rgb="255 200 50"/>
+    <color id="3" rgb="50 80 200"/>
+    <color id="4" rgb="0 180 0"/>
+    <color id="5" rgb="255 230 200"/>
+    <color id="6" rgb="180 180 180"/>
+    <color id="7" rgb="150 200 255"/>
+    <color id="8" rgb="60 60 60"/>
+    <color id="9" rgb="30 30 30"/>
+  </plot>
+  <!--Pin detail-->
+  <plot id="4" name="Pin detail" filename="pin_xy" color_by="material" type="slice" basis="xy">
+    <pixels>800 800</pixels>
+    <origin>0.0 0.0 0.0</origin>
+    <width>1.88976 1.88976</width>
+    <color id="1" rgb="255 80 80"/>
+    <color id="2" rgb="255 200 50"/>
+    <color id="3" rgb="50 80 200"/>
+    <color id="4" rgb="0 180 0"/>
+    <color id="5" rgb="255 230 200"/>
+    <color id="6" rgb="180 180 180"/>
+    <color id="7" rgb="150 200 255"/>
+    <color id="8" rgb="60 60 60"/>
+    <color id="9" rgb="30 30 30"/>
+  </plot>
+  <!--XY cell coloring-->
+  <plot id="5" name="XY cell coloring" filename="core_xy_cells" color_by="cell" type="slice" basis="xy">
+    <pixels>1200 1200</pixels>
+    <origin>0.0 0.0 0.0</origin>
+    <width>276.7 276.7</width>
+  </plot>
+</plots>
